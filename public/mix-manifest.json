@@ -1,4 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/admin-ui/css/custom.css": "/admin-ui/css/custom.css",
+    "/admin-ui/css/nucleo-svg.css": "/admin-ui/css/nucleo-svg.css",
+    "/admin-ui/css/nucleo-icons.css": "/admin-ui/css/nucleo-icons.css",
+    "/admin-ui/css/material-dashboard.css": "/admin-ui/css/material-dashboard.css",
+    "/admin-ui/js/app.js": "/admin-ui/js/app.js"
 }
