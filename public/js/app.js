@@ -34578,6 +34578,19 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./node_modules/sweetalert2/dist/sweetalert2.css":
+/*!*******************************************************!*\
+  !*** ./node_modules/sweetalert2/dist/sweetalert2.css ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -34591,10 +34604,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/admin-ui/css/material-dashboard.css":
-/*!*******************************************************!*\
-  !*** ./resources/admin-ui/css/material-dashboard.css ***!
-  \*******************************************************/
+/***/ "./resources/admin-ui/sass/app.scss":
+/*!******************************************!*\
+  !*** ./resources/admin-ui/sass/app.scss ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -34604,23 +34617,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/admin-ui/css/nucleo-icons.css":
-/*!*************************************************!*\
-  !*** ./resources/admin-ui/css/nucleo-icons.css ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/admin-ui/css/nucleo-svg.css":
-/*!***********************************************!*\
-  !*** ./resources/admin-ui/css/nucleo-svg.css ***!
-  \***********************************************/
+/***/ "./resources/admin-ui/css/bootstrap.css":
+/*!**********************************************!*\
+  !*** ./resources/admin-ui/css/bootstrap.css ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -34634,6 +34634,19 @@ __webpack_require__.r(__webpack_exports__);
 /*!*******************************************!*\
   !*** ./resources/admin-ui/css/custom.css ***!
   \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./node_modules/choices.js/public/assets/styles/choices.css":
+/*!******************************************************************!*\
+  !*** ./node_modules/choices.js/public/assets/styles/choices.css ***!
+  \******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37602,11 +37615,12 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
+/******/ 			"admin-ui/css/app": 0,
 /******/ 			"css/app": 0,
+/******/ 			"admin-ui/css/choices": 0,
 /******/ 			"admin-ui/css/custom": 0,
-/******/ 			"admin-ui/css/nucleo-svg": 0,
-/******/ 			"admin-ui/css/nucleo-icons": 0,
-/******/ 			"admin-ui/css/material-dashboard": 0
+/******/ 			"admin-ui/css/bootstrap": 0,
+/******/ 			"admin-ui/css/sweetalert2": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -37656,12 +37670,13 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","admin-ui/css/custom","admin-ui/css/nucleo-svg","admin-ui/css/nucleo-icons","admin-ui/css/material-dashboard"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","admin-ui/css/custom","admin-ui/css/nucleo-svg","admin-ui/css/nucleo-icons","admin-ui/css/material-dashboard"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","admin-ui/css/custom","admin-ui/css/nucleo-svg","admin-ui/css/nucleo-icons","admin-ui/css/material-dashboard"], () => (__webpack_require__("./resources/admin-ui/css/material-dashboard.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","admin-ui/css/custom","admin-ui/css/nucleo-svg","admin-ui/css/nucleo-icons","admin-ui/css/material-dashboard"], () => (__webpack_require__("./resources/admin-ui/css/nucleo-icons.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","admin-ui/css/custom","admin-ui/css/nucleo-svg","admin-ui/css/nucleo-icons","admin-ui/css/material-dashboard"], () => (__webpack_require__("./resources/admin-ui/css/nucleo-svg.css")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","admin-ui/css/custom","admin-ui/css/nucleo-svg","admin-ui/css/nucleo-icons","admin-ui/css/material-dashboard"], () => (__webpack_require__("./resources/admin-ui/css/custom.css")))
+/******/ 	__webpack_require__.O(undefined, ["admin-ui/css/app","css/app","admin-ui/css/choices","admin-ui/css/custom","admin-ui/css/bootstrap","admin-ui/css/sweetalert2"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["admin-ui/css/app","css/app","admin-ui/css/choices","admin-ui/css/custom","admin-ui/css/bootstrap","admin-ui/css/sweetalert2"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["admin-ui/css/app","css/app","admin-ui/css/choices","admin-ui/css/custom","admin-ui/css/bootstrap","admin-ui/css/sweetalert2"], () => (__webpack_require__("./resources/admin-ui/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["admin-ui/css/app","css/app","admin-ui/css/choices","admin-ui/css/custom","admin-ui/css/bootstrap","admin-ui/css/sweetalert2"], () => (__webpack_require__("./resources/admin-ui/css/bootstrap.css")))
+/******/ 	__webpack_require__.O(undefined, ["admin-ui/css/app","css/app","admin-ui/css/choices","admin-ui/css/custom","admin-ui/css/bootstrap","admin-ui/css/sweetalert2"], () => (__webpack_require__("./resources/admin-ui/css/custom.css")))
+/******/ 	__webpack_require__.O(undefined, ["admin-ui/css/app","css/app","admin-ui/css/choices","admin-ui/css/custom","admin-ui/css/bootstrap","admin-ui/css/sweetalert2"], () => (__webpack_require__("./node_modules/choices.js/public/assets/styles/choices.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["admin-ui/css/app","css/app","admin-ui/css/choices","admin-ui/css/custom","admin-ui/css/bootstrap","admin-ui/css/sweetalert2"], () => (__webpack_require__("./node_modules/sweetalert2/dist/sweetalert2.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

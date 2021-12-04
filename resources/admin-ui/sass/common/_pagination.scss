@@ -1,0 +1,16 @@
+.page-item.active .page-link {
+  background-color: $blue;
+  border-color: $blue;
+}
+.page-link {
+  color: $blue;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.page-item:last-child .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

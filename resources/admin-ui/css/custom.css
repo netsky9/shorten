@@ -1,10 +1,4 @@
-.card {
-    border-radius: 0.25rem;
-}
-.bg-gradient-primary {
-    background-image: linear-gradient(
-            195deg, #1976d2 0%, #1976d2 100%);
-}
-.navbar-vertical.bg-white {
-    box-shadow: none;
+.btn-primary {
+    background-color: #1976d2;
+    border-color: #1976d2;
 }

@@ -1,0 +1,21 @@
+.choices__inner {
+  padding: 3.5px 7.5px 3.75px;
+  min-height: 23px;
+}
+
+.choices[data-type*='select-one'] .choices__inner {
+  padding-bottom: 3.75px;
+  background: white;
+  border-radius: 0;
+  border: 1px solid #ced4da;
+}
+
+.choices__placeholder {
+  opacity: .7;
+}
+
+@media (min-width: 640px) {
+  .choices__list--dropdown .choices__item--selectable {
+    padding-right: 10px;
+  }
+}

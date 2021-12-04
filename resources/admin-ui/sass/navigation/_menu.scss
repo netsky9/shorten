@@ -1,0 +1,34 @@
+#sidebarMenu {
+  div{
+    border: 1px solid #efefef;
+    background: white;
+  }
+
+  .nav-item {
+    border-bottom: 1px solid #efefef;
+  }
+
+  .nav-link {
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.8rem 1rem;
+    position: relative;
+
+    &.active:before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 5px;
+      background: #1976d2;
+      left: 0;
+      top: 0;
+    }
+
+    span {
+      margin-right: 10px;
+      color: #1976d2;
+    }
+  }
+}

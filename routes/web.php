@@ -18,15 +18,19 @@ use Illuminate\Support\Facades\Route;
 //    ->middleware(['role:super-admin|admin|manager|company|writer']);
 
 Route::middleware(['role:super-admin|admin|manager|company|writer'])
-    ->prefix('admin')->namespace('\App\Http\Controllers\Admin')->group(function () {
+    ->prefix('admin')->group(function () {
 
     Route::get('/control-panel', [\App\Http\Controllers\Admin\MainController::class, 'index'])->name('admin.index');
 
     /**
      * Categories routes
      */
-    Route::resource('products/categories', CategoryController::class, [
+    Route::resource('products/categories', \App\Http\Controllers\Admin\Products\ProductCategoryController::class, [
         'names'=>'admin.products.categories'
+    ]);
+
+    Route::resource('companies', \App\Http\Controllers\Admin\CompanyController::class, [
+        'names'=>'admin.companies'
     ]);
 
 });

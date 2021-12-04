@@ -1,0 +1,23 @@
+.dropzone {
+  min-height: 300px;
+  border: 2px dashed rgba(0, 0, 0, 0.3)!important;
+  background: #fff;
+  padding: 30px 20px;
+}
+.dropzone {
+  .dz-preview{
+    .dz-image{
+      border-radius: 3px!important;
+    }
+  }
+}
+.dropzone-gallery-container{
+  margin: -5px -5px 15px -5px;
+
+  .dropzone-gallery_item{
+    width: 188px;
+    height: 188px;
+    object-fit: cover;
+    margin: 5px;
+  }
+}
